@@ -1,0 +1,25 @@
+{
+  "name": "demo-be-w3-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piuswong-multiverse/demo-be-w3-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piuswong-multiverse/demo-be-w3-jwt/issues"
+  },
+  "homepage": "https://github.com/piuswong-multiverse/demo-be-w3-jwt#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
