@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/piuswong-multiverse/demo-be-w3-jwt#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
     "nodemon": "^2.0.20"
   }
 }
