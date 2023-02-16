@@ -16,3 +16,12 @@ const user = {
 
 const token = jwt.sign(user, JWT_SECRET);
 console.log(token);
+
+// Some time in the future, somebody sends you a JWT...
+const receivedToken = token;
+try {
+    const decrypted = jwt.verify(receivedToken, JWT_SECRET);
+    console.log("decrypted:", decrypted);
+} catch (err) {
+    console.log("You're not allowed in!!!")
+}
